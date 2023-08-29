@@ -22,7 +22,6 @@ namespace Redis.Controllers
             _redisService = new RedisService(cache);
         }
         
-
         [HttpGet("GetAllUsingRedis")]
         public async Task<IActionResult> GetAllUsingRedis()
         {
